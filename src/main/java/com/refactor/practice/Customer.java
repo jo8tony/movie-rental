@@ -51,7 +51,10 @@ public class Customer {
 		return result;
 	}
 
-
+	/**
+	 * 打印HTML
+	 * @return 返回HTML字符串
+	 */
 	public String statmentHtml() {
 		String html = "<!DOCTYPE html>\n" +
 				"<html>\n" +

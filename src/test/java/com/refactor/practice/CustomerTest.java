@@ -36,6 +36,7 @@ public class CustomerTest {
 	 *    	用户希望修改影片分类规则，租金计算也会自动选择相应的规则
 	 *    	如果需要添加新的分类，只需要创建新类型实现ChargeRules接口定义自己的计费规则
 	 *      并在MovieType中添加新的类型。
+	 *  5.添加了打印html的方法Customer.statmentHtml()
 	 */
 	@Test
 	public void should_get_statement_of_rentals() {
